@@ -50,7 +50,7 @@ while True:
         print(depth)
 
         # displaying output on the screen
-        cvzone.putTextRect(img, f'Depth: {int(depth)}', (face[10][0]-135, face[10][1]-60), scale=3)
+        cvzone.putTextRect(img, f'Distance: {int(depth)}', (face[10][0]-165, face[10][1]-60), scale=3)
 
     cv2.imshow("Image", img)
     cv2.waitKey(1)
